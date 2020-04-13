@@ -21,7 +21,7 @@ for(i in 1:length(load_files))
   whole_data_file <- NULL
   load_data_file$date <- ymd(load_data_file$data)
   write_delim(load_data_file,
-              paste0(substr(load_files[i],start = 1,stop = 4),"_upload_ready.csv"),
+              paste0("g:/Weather_data/3_read_to_load/",substr(load_files[i],start = 1,stop = 4),"_upload_ready.csv"),
               delim = "|")
   load_data_file <- NULL
   whole_data_file <- NULL
