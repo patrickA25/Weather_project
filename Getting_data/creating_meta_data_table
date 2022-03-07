@@ -1,0 +1,18 @@
+USE [weather_DB]
+GO
+
+/****** Object:  Table [dbo].[MAIN_TABLE]    Script Date: 4/20/2020 6:10:16 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Station_meta_data](
+	[Station_ID] [nchar](50) NULL,
+	[Latitude] [FLOAT] NULL,
+	[longitude] [FLOAT] NULL,
+	[name] [nchar](100) NULL,
+) ON [PRIMARY]
+GO
+

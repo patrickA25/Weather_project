@@ -1,0 +1,110 @@
+--load 2011
+BULK INSERT [weather_DB].[dbo].[MAIN_TABLE]
+    FROM 'E:/Weather_data/3_read_to_load/2011_upload_ready.csv'
+    WITH
+    (
+	KEEPNULLS,
+	firstrow = 2,
+    FIELDTERMINATOR = '|',  --CSV field delimiter
+    ROWTERMINATOR = '0x0a'   --Use to shift the control to next row
+    )
+go
+--load 2012
+BULK INSERT [weather_DB].[dbo].[MAIN_TABLE]
+    FROM 'E:/Weather_data/3_read_to_load/2012_upload_ready.csv'
+    WITH
+    (
+	KEEPNULLS,
+	firstrow = 2,
+    FIELDTERMINATOR = '|',  --CSV field delimiter
+    ROWTERMINATOR = '0x0a'   --Use to shift the control to next row
+    )
+go
+--load 2013
+BULK INSERT [weather_DB].[dbo].[MAIN_TABLE]
+    FROM 'E:/Weather_data/3_read_to_load/2013_upload_ready.csv'
+    WITH
+    (
+	KEEPNULLS,
+	firstrow = 2,
+    FIELDTERMINATOR = '|',  --CSV field delimiter
+    ROWTERMINATOR = '0x0a'   --Use to shift the control to next row
+    )
+go
+--load 2014
+BULK INSERT [weather_DB].[dbo].[MAIN_TABLE]
+    FROM 'E:/Weather_data/3_read_to_load/2014_upload_ready.csv'
+    WITH
+    (
+	KEEPNULLS,
+	firstrow = 2,
+    FIELDTERMINATOR = '|',  --CSV field delimiter
+    ROWTERMINATOR = '0x0a'   --Use to shift the control to next row
+    )
+go
+--load 2015
+BULK INSERT [weather_DB].[dbo].[MAIN_TABLE]
+    FROM 'E:/Weather_data/3_read_to_load/2015_upload_ready.csv'
+    WITH
+    (
+	KEEPNULLS,
+	firstrow = 2,
+    FIELDTERMINATOR = '|',  --CSV field delimiter
+    ROWTERMINATOR = '0x0a'   --Use to shift the control to next row
+    )
+go
+--load 2016
+BULK INSERT [weather_DB].[dbo].[MAIN_TABLE]
+    FROM 'E:/Weather_data/3_read_to_load/2016_upload_ready.csv'
+    WITH
+    (
+	KEEPNULLS,
+	firstrow = 2,
+    FIELDTERMINATOR = '|',  --CSV field delimiter
+    ROWTERMINATOR = '0x0a'   --Use to shift the control to next row
+    )
+go
+--load 2017
+BULK INSERT [weather_DB].[dbo].[MAIN_TABLE]
+    FROM 'E:/Weather_data/3_read_to_load/2017_upload_ready.csv'
+    WITH
+    (
+	KEEPNULLS,
+	firstrow = 2,
+    FIELDTERMINATOR = '|',  --CSV field delimiter
+    ROWTERMINATOR = '0x0a'   --Use to shift the control to next row
+    )
+go
+--load 2018
+BULK INSERT [weather_DB].[dbo].[MAIN_TABLE]
+    FROM 'E:/Weather_data/3_read_to_load/2018_upload_ready.csv'
+    WITH
+    (
+	KEEPNULLS,
+	firstrow = 2,
+    FIELDTERMINATOR = '|',  --CSV field delimiter
+    ROWTERMINATOR = '0x0a'   --Use to shift the control to next row
+    )
+go
+--load 2019
+BULK INSERT [weather_DB].[dbo].[MAIN_TABLE]
+    FROM 'E:/Weather_data/3_read_to_load/2019_upload_ready.csv'
+    WITH
+    (
+	KEEPNULLS,
+	firstrow = 2,
+    FIELDTERMINATOR = '|',  --CSV field delimiter
+    ROWTERMINATOR = '0x0a'   --Use to shift the control to next row
+    )
+go
+--load 2020
+BULK INSERT [weather_DB].[dbo].[MAIN_TABLE]
+    FROM 'E:/Weather_data/3_read_to_load/2020_upload_ready.csv'
+    WITH
+    (
+	KEEPNULLS,
+	firstrow = 2,
+    FIELDTERMINATOR = '|',  --CSV field delimiter
+    ROWTERMINATOR = '0x0a'   --Use to shift the control to next row
+    )
+go
